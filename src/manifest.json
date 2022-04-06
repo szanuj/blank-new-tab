@@ -1,0 +1,20 @@
+{
+   "author": "Szanuj",
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "default_locale": "en",
+   "description": "Replace the new tab page with a blank one.",
+   "icons": {
+      "32": "new_page_32.png",
+      "48": "new_page_48.png",
+      "64": "new_page_64.png",
+      "128": "new_page_128.png"
+   },
+   "homepage_url": "https://github.com/szanuj/blank-new-tab",
+   "incognito": "not_allowed",
+   "manifest_version": 3,
+   "name": "Blank New Tab",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.0.0"
+}
