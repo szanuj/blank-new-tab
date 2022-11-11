@@ -3,25 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="color-scheme" content="light dark">
 	<title>New tab</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="new_page_32.png" id="favicon">
-	<script src="newtab.js"></script>
+	<link rel="icon" href="new_page_48.png" type="image/png" sizes="48x48">
+	<link rel="icon" href="new_page_48.png" type="image/png" sizes="48x48" media="(prefers-color-scheme: light)">
+	<link rel="icon" href="new_page_white_48.png" type="image/png" sizes="48x48" media="(prefers-color-scheme: dark)">
+	<script defer src="newtab.js"></script>
+	<style>
+		body {
+			margin: 0;
+			background-color: #f7f7f7;
+			color: #262626;
+		}
+		
+		@media (prefers-color-scheme: dark) {
+			body {
+				background-color: #333333;
+				color: #ffffff;
+			}
+		}
+	</style>
 </head>
 <body>
 </body>
 </html>
-<style>
-	body {
-		font-family: "Segoe UI", "Segoe UI Midlevel", "Segoe WP", Arial, sans-serif;
-		margin: 0;
-		background-color: #f7f7f7;
-		color: #262626;
-	}
-	
-	@media (prefers-color-scheme: dark) {
-		body {
-			background-color: #333333;
-			color: #ffffff;
-		}
-	}
-</style>
