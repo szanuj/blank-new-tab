@@ -36,7 +36,7 @@ I made it for my own use, because Edge's default New tab page annoyed me in many
 - Edge disables Blank New Tab on install. Enable it in the Manage Extensions page (edge://extensions).
 - To install in a different Chromium-based browser:
   - Download the contents of this repo.
-  - Enable Developer mode in your browser's extension settings.
+  - Enable Developer mode in your browser's Manage Extensions page.
   - Select "Load unpacked" and choose the `src` folder.
 - New tab icon comes from Microsoft [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) (MIT license).
 - Extensions can't override the InPrivate/Incognito New tab page.
