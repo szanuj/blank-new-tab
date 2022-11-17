@@ -5,7 +5,7 @@
 
 # Blank New Tab
 
-Default-feel New tab page without distractions.
+Replace your Edge New tab page with a blank one.
 
 </div><br>
 
