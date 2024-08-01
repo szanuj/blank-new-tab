@@ -12,7 +12,7 @@
       "128": "bnt-logo-128.png"
    },
    "homepage_url": "https://github.com/szanuj/blank-new-tab",
-   "incognito": "not_allowed",
+   "incognito": "split",
    "manifest_version": 3,
    "name": "Blank New Tab",
    "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
