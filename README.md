@@ -39,5 +39,5 @@ I made it for my own use, because Edge's default New tab page annoyed me in many
   - Enable Developer mode in your browser's Manage Extensions page.
   - Select "Load unpacked" and choose the `src` folder.
 - New tab icon comes from Microsoft [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) (MIT license).
-- Extensions can't override the InPrivate/Incognito New tab page.
+- InPrivate/Incognito works after ticking the Allow checkbox in Extension Details. Chrome docs explicitly state that extensions can't override the InPrivate/Incognito New tab page though, so it's uncertain if this keeps working forever.
 - New tab page title displays in browser's UI language ([see available languages](TRANSLATIONS)). Edge Add-ons listing states there's only 1 available language because the extension's description is only in English.
