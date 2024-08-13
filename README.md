@@ -1,11 +1,11 @@
 
 <div align="center">
 
-![Logo/mascot - Blyu](assets/bnt-logo-128.png)
+![Logo](assets/bnt-logo-128.png)
 
 # Blank New Tab
 
-Replace your Edge New tab page with a blank one.
+Replace your New tab page with a blank one.
 
 </div><br>
 
@@ -13,13 +13,13 @@ Replace your Edge New tab page with a blank one.
 
 | Light theme | Dark theme |
 |:-:|:-:|
-| ![Screenshot of light theme](assets/blank-new-tab-ss-light-en.png) | ![Screenshot of dark theme](assets/blank-new-tab-ss-dark-en.png) |
+| ![Screenshot of light theme](assets/bnt-demo-light.png) | ![Screenshot of dark theme](assets/bnt-demo-dark.png) |
 
 ## 🪶 Description
 
-Blank New Tab is a simple browser extension for Edge/Chromium that replaces your New tab page with a blank one.
+Blank New Tab is a browser extension for Edge/Chromium that replaces your New tab page with a blank one.
 
-I made it for my own use, because Edge's default New tab page annoyed me in many aspects. Similar extensions I tried had a different favicon or an untranslated page title. So I ended up making this.
+I wanted something that looks built-in and clean, unlike the bloated default in Edge.
 
 [Get it on Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/blank-new-tab/pfbmpcgfjncjakgfpddijlbdpjnhnfem)
 
@@ -30,14 +30,15 @@ I made it for my own use, because Edge's default New tab page annoyed me in many
 - Colors as in the built-in Edge Settings pages
 - Default Edge New tab icon and page title
 - Localized page title ([see available languages](TRANSLATIONS))
+- Works in InPrivate/Incognito (see note below)
 
 ## 📝 Notes
 
-- Edge disables Blank New Tab on install. Enable it in the Manage Extensions page (edge://extensions).
+- Edge may disable Blank New Tab on install. Enable it in Manage Extensions page (edge://extensions).
+- InPrivate/Incognito works after ticking "Allow in InPrivate/Incognito" in Extension Details. Chrome docs explicitly state that extensions can't override InPrivate/Incognito New tab page, so it's uncertain if this keeps working forever.
+- New tab page title displays in browser's UI language ([see available languages](TRANSLATIONS)). Edge Add-ons listing states there's only 1 available language because extension's description is only in English.
 - To install in a different Chromium-based browser:
   - Download the contents of this repo.
   - Enable Developer mode in your browser's Manage Extensions page.
   - Select "Load unpacked" and choose the `src` folder.
 - New tab icon comes from Microsoft [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) (MIT license).
-- InPrivate/Incognito works after ticking the Allow checkbox in Extension Details. Chrome docs explicitly state that extensions can't override the InPrivate/Incognito New tab page though, so it's uncertain if this keeps working forever.
-- New tab page title displays in browser's UI language ([see available languages](TRANSLATIONS)). Edge Add-ons listing states there's only 1 available language because the extension's description is only in English.
