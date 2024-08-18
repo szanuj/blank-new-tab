@@ -13,7 +13,7 @@ Replace your New tab page with a blank one.
 
 | Light theme | Dark theme |
 |:-:|:-:|
-| ![Screenshot of light theme](assets/bnt-demo-light.png) | ![Screenshot of dark theme](assets/bnt-demo-dark.png) |
+| ![Screenshot of light theme](assets/bnt-store-light.png) | ![Screenshot of dark theme](assets/bnt-store-dark.png) |
 
 ## 🪶 Description
 
